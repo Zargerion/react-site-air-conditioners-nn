@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/react-site-air-conditioners-nn/static/css/main.902a2f9d.css",
-    "main.js": "/react-site-air-conditioners-nn/static/js/main.365b97df.js",
+    "main.css": "/react-site-air-conditioners-nn/static/css/main.7d1d4e94.css",
+    "main.js": "/react-site-air-conditioners-nn/static/js/main.cb6c6e74.js",
     "static/js/787.9ba0244f.chunk.js": "/react-site-air-conditioners-nn/static/js/787.9ba0244f.chunk.js",
+    "static/media/service-wp-v1.jpg": "/react-site-air-conditioners-nn/static/media/service-wp-v1.0ea92d18b62b22cfbfd9.jpg",
+    "static/media/about-wp-v1.jpg": "/react-site-air-conditioners-nn/static/media/about-wp-v1.2ecbc065b95527ccc272.jpg",
+    "static/media/install-wp-v1.jpg": "/react-site-air-conditioners-nn/static/media/install-wp-v1.9e02eade8eee0e70d7aa.jpg",
     "static/media/intro.jpg": "/react-site-air-conditioners-nn/static/media/intro.8886e1ffc6267f4f4637.jpg",
-    "static/media/condei2.webp": "/react-site-air-conditioners-nn/static/media/condei2.7d62b2d1fab699b6414e.webp",
-    "static/media/condei1.webp": "/react-site-air-conditioners-nn/static/media/condei1.93cdf80fc74ee5827369.webp",
+    "static/media/shop-wp-v2.jpg": "/react-site-air-conditioners-nn/static/media/shop-wp-v2.924c2d0c2b89fdaa29af.jpg",
     "index.html": "/react-site-air-conditioners-nn/index.html",
-    "main.902a2f9d.css.map": "/react-site-air-conditioners-nn/static/css/main.902a2f9d.css.map",
-    "main.365b97df.js.map": "/react-site-air-conditioners-nn/static/js/main.365b97df.js.map",
+    "main.7d1d4e94.css.map": "/react-site-air-conditioners-nn/static/css/main.7d1d4e94.css.map",
+    "main.cb6c6e74.js.map": "/react-site-air-conditioners-nn/static/js/main.cb6c6e74.js.map",
     "787.9ba0244f.chunk.js.map": "/react-site-air-conditioners-nn/static/js/787.9ba0244f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.902a2f9d.css",
-    "static/js/main.365b97df.js"
+    "static/css/main.7d1d4e94.css",
+    "static/js/main.cb6c6e74.js"
   ]
 }
