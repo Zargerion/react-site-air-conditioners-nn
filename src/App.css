@@ -218,6 +218,7 @@ a {
   background-position: center center;
   width: 100%;
   height: 300px;
+  
 }
 
 .intro-text-holder {
@@ -237,6 +238,14 @@ a {
   margin: 0 0 50px 0;
 }
 
+.about-wrapper {
+  background-image: url(./about-wp-v1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset, rgba(255, 255, 255, 0.55) 0px 50px 36px -28px inset;*/
+}
+
 .about-under {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -248,6 +257,12 @@ a {
   flex-direction: row;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.about-under > :nth-child(1) {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .about-holder {
@@ -276,49 +291,24 @@ a {
   border-style: none;
 }
 
-/*Content Installation*/
-
-.installation {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-.installation-under {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-/*Content Service*/
-
-.service-wrapper {
-  background-color: #F0EFEF;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.service {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-.service-under {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-.service-under p {
-  margin-top: 0;
-}
-
 /*Content Shop*/
 
 .shop {
   grid-column-start: 2;
   grid-column-end: 3;
+  margin-top: 50px;
 }
 
+.shop > :nth-child(1) {
+  color: #fff;
+}
+
+.shop-wrapper {
+  background-image: url(./shop-wp-v2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 .shop-under {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -337,25 +327,16 @@ a {
   zoom: 1;
   background-position: center center;
   background-size: cover;
-  height: 500px;
-}
-
-.sii-1 {
- background-image: url(./condei1.webp);
-}
-
-.sii-2 {
-  background-image: url(./condei2.webp);
+  height: 380px;
 }
 
 .shop-relative {
   position: relative;
-  height: 500px;
+  height: 380px;
 }
 
 .shop-item {
   background-color: #53ACFF;
-  opacity: 0.8;
   width: auto;
   display: table;
   color: #fff;
@@ -368,14 +349,114 @@ a {
   left: -8px;
   min-height: 72px;
   min-width: 65%;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 
+/*Content Installation*/
+
+.installation {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-top: 50px;
+}
+
+.installation-wrapper {
+  background-image: url(./install-wp-v1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.installation-under {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.installation-under > :nth-child(1) {
+  margin-top: 0;
+}
+
+/*Content Service*/
+
+.service-wrapper {
+  background-image: url(./about-wp-v1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset, rgba(255, 255, 255, 0.55) 0px 50px 36px -28px inset;*/
+}
+
+.service-under {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.service-under > :nth-child(2) {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.service-holder {
+  width: 50%;
+  width: calc(50% - ( 0.5 * 30px ) );
+  box-sizing: border-box;
+  
+}
+
+.service-holder p{
+  margin-top: 0;
+}
+
+.img-holder-service {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.service-holder div img {
+  max-width: 100%;
+  height: auto;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  border-style: none;
+}
 
 /*Content Terms*/
 
 .terms {
   grid-column-start: 2;
   grid-column-end: 3;
+}
+
+.terms .ml-4 {
+  background-color: rgba(255,255,255,0.7);
+  box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.terms-wrapper {
+  background-image: url(./service-wp-v1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 50px;
 }
 
 .tеrms-under {
@@ -391,13 +472,13 @@ a {
 }
 
 .terms-box {
-  background-color: #ededed;
+  background-color: rgba(255,255,255,0.7);
   padding: 30px 30px 30px 30px;
   zoom: 1;
   width: 33.3333%;
     width: calc(33.3333% - ( 0.66666666666667 * 20px ) );
     box-sizing: border-box;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 /*Contacts*/
@@ -755,7 +836,7 @@ p {
 
   .intro {
     padding: 10px;
-    height: 70vh;
+    height: 65vh;
     font-size: 0.9rem;
   }
 
@@ -777,6 +858,12 @@ p {
     width: 100%;
   }
 
+  .about-under > :nth-child(1) > :nth-child(4),
+  .about-under > :nth-child(1) > :nth-child(3),
+  .about-under > :nth-child(2) {
+    display: none;
+  }
+
   .img-holder-about {
     margin-top: 30px;
     margin-bottom: 50px;
@@ -785,6 +872,23 @@ p {
   /*M_Installation*/
 
   /*M_Service*/
+
+  .service-under {
+    flex-direction: column;
+  }
+
+  .service-holder {
+    width: 100%;
+  }
+
+  .service-under > :nth-child(1) {
+    display: none;
+  }
+
+  .img-holder-service {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
 
   /*M_Shop*/
 
