@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/react-site-air-conditioners-nn/static/css/main.7d1d4e94.css",
-    "main.js": "/react-site-air-conditioners-nn/static/js/main.cb6c6e74.js",
+    "main.css": "/react-site-air-conditioners-nn/static/css/main.ea7b24d2.css",
+    "main.js": "/react-site-air-conditioners-nn/static/js/main.e7363b1a.js",
     "static/js/787.9ba0244f.chunk.js": "/react-site-air-conditioners-nn/static/js/787.9ba0244f.chunk.js",
     "static/media/service-wp-v1.jpg": "/react-site-air-conditioners-nn/static/media/service-wp-v1.0ea92d18b62b22cfbfd9.jpg",
     "static/media/about-wp-v1.jpg": "/react-site-air-conditioners-nn/static/media/about-wp-v1.2ecbc065b95527ccc272.jpg",
     "static/media/install-wp-v1.jpg": "/react-site-air-conditioners-nn/static/media/install-wp-v1.9e02eade8eee0e70d7aa.jpg",
     "static/media/intro.jpg": "/react-site-air-conditioners-nn/static/media/intro.8886e1ffc6267f4f4637.jpg",
     "static/media/shop-wp-v2.jpg": "/react-site-air-conditioners-nn/static/media/shop-wp-v2.924c2d0c2b89fdaa29af.jpg",
+    "static/media/download1.jfif": "/react-site-air-conditioners-nn/static/media/download1.d5a49c5e9483dc6b1f8d.jfif",
+    "static/media/download0.jfif": "/react-site-air-conditioners-nn/static/media/download0.55af079d7218d8f8d173.jfif",
+    "static/media/download2.jfif": "/react-site-air-conditioners-nn/static/media/download2.32a55c358eb4f148ca24.jfif",
+    "static/media/no-photo.jpg": "/react-site-air-conditioners-nn/static/media/no-photo.a61bce1b02c6c7a1b077.jpg",
     "index.html": "/react-site-air-conditioners-nn/index.html",
-    "main.7d1d4e94.css.map": "/react-site-air-conditioners-nn/static/css/main.7d1d4e94.css.map",
-    "main.cb6c6e74.js.map": "/react-site-air-conditioners-nn/static/js/main.cb6c6e74.js.map",
+    "main.ea7b24d2.css.map": "/react-site-air-conditioners-nn/static/css/main.ea7b24d2.css.map",
+    "main.e7363b1a.js.map": "/react-site-air-conditioners-nn/static/js/main.e7363b1a.js.map",
     "787.9ba0244f.chunk.js.map": "/react-site-air-conditioners-nn/static/js/787.9ba0244f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d1d4e94.css",
-    "static/js/main.cb6c6e74.js"
+    "static/css/main.ea7b24d2.css",
+    "static/js/main.e7363b1a.js"
   ]
 }
