@@ -825,6 +825,15 @@ p {
     display: none;
   }
 
+  .content-container {
+    grid-template-columns: 1fr 9fr 1fr;
+  }
+
+  .intro-text-holder {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
   .navigation div ul {
     display: none;
   }
