@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-document.title = "Кондиционеры";
+document.title = "Кондиционеры в Нижнем Новгороде. Установка, обслуживание, сервис, продажа кондиционеров.";
 root.render(
   <React.StrictMode>
     <App />

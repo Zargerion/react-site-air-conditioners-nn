@@ -1,4 +1,5 @@
 import './App.css';
+import Inst from './components/inst';
 
 function scrollHigher() {
   setTimeout(() => {
@@ -34,11 +35,11 @@ function App() {
 				<div class="rf_item rf_contacts">
 					<div class="rf_phone">
             <img src={process.env.PUBLIC_URL + '/phone-or.svg'} alt="mail" />
-						<a href="tel:+7 831 410 06 99">+7 000 000 00 00</a>
+						<a href="tel:+7 953 415 97 27">+7 953 415 97 27</a>
 					</div>
 					<div class="rf_email">
             <img src={process.env.PUBLIC_URL + '/mail_or.svg'} alt="phone" />
-						<a href="mailto:info@vseprozrachno.ru">alexander@bk.ru</a>
+						<a href="mailto:alexanders-conditioners@bk.ru">alexanders-conditioners@bk.ru</a>
 					</div>
 				</div>
 				<div class="rf_item">
@@ -50,17 +51,17 @@ function App() {
 				</div>
         <div class=".rf_item">
           <div class="rf_item soc">
-            <a href="viber://chat?number=79200006177">
+            <a href="viber://chat?number=%2B79534159727">
               <img src={process.env.PUBLIC_URL + '/viber.svg'} alt="viber" />
             </a>
           </div>
           {/*<div class="rf_item soc">
-            <a href="whatsapp://send?phone=+79200006177">
+            <a href="whatsapp://send?phone=+70000000000">
 
             </a>
           </div>
           <div class="rf_item soc">
-            <a href="https://t.me/joinchat/_xNjYvS2i9xhYTIy">
+            <a href="https://t.me/joinchat/ghdfghfgdhfdghfgdh">
 
             </a>
           </div>*/}
@@ -117,7 +118,11 @@ function App() {
               </div>
               <div class="about-holder">
                 <div class="img-holder-about">
-                  {/*<img src={process.env.PUBLIC_URL + '/brends.png'} alt="brends"/>*/}
+                  {/*<img src={process.env.PUBLIC_URL + '/brends.png'} alt="brends"/>
+                  <video  controls >
+                        <source src={process.env.PUBLIC_URL + '/video1.mp4'} type="video/mp4"/>
+                  </video>*/}
+                  <Inst></Inst>
                 </div>
               </div>
           </div>
@@ -140,28 +145,28 @@ function App() {
                   <p>35 000 руб.</p>
                 </div>
                 <div class="shop-item">
-                  <p>Haier HSU-07HPL103/R3</p>
-                  <p>35 000 руб.</p>
+                  <p>Zanussi ZACS-09 HB/N1</p>
+                  <p>40 000 руб.</p>
                 </div>
                 <div class="shop-item">
-                  <p>Haier HSU-07HPL103/R3</p>
-                  <p>35 000 руб.</p>
+                  <p>Xigma XG-TX27RHA</p>
+                  <p>36 000 руб.</p>
                 </div>
               </div>
             </div>
             <div class="shop-img sii-2">
               <div class="shop-relative">
                 <div class="shop-item">
-                  <p>Electrolux EACS/I-07HF2/N8_23Y</p>
-                  <p>55 000 руб.</p>
+                  <p>Shuft SFTHI-09HN1_22Y</p>
+                  <p>43 000 руб.</p>
                 </div>
                 <div class="shop-item">
-                  <p>Electrolux EACS/I-07HF2/N8_23Y</p>
-                  <p>55 000 руб.</p>
+                  <p>Toshiba RAS-B05CKVG-EE</p>
+                  <p>65 000 руб.</p>
                 </div>
                 <div class="shop-item">
-                  <p>Electrolux EACS/I-07HF2/N8_23Y</p>
-                  <p>55 000 руб.</p>
+                  <p>Royal Clima RCI-GR28HN</p>
+                  <p>53 000 руб.</p>
                 </div>
               </div>
             </div>
@@ -249,7 +254,7 @@ function App() {
             <p class="like_h2">Свяжитесь с нами сейчас</p>
             <p class="rf_footer_contact_tel_box">
               По всем вопросам, звоните нам:
-              <a href="tel:+7 000 000 00 00">+7 000 000 00 00 </a>
+              <a href="tel:+7 953 415 97 27">+7 953 415 97 27</a>
               с 8:00 до 20:00 по МСК
             </p>
             <p onclick="openModal('#rf-book-up-modal');" class="rf_footer_p_with_icon">
@@ -265,12 +270,12 @@ function App() {
             <p class="like_h2">Наш адрес</p>
             <p class="rf_footer_p_with_icon">
               <img src={process.env.PUBLIC_URL + '/orange_location.svg'} alt="locations" />
-              603155, Нижний Новгород ул. Максима Горького, д. 262, оф. 29 П1			</p>
+              603155, Нижний Новгород			</p>
             
             <p class="like_h2">Электронная почта</p>
             <p class="rf_footer_p_with_icon">
               <img src={process.env.PUBLIC_URL + '/mail_or.svg'} alt="mails" />
-              alexander@bk.ru			</p>
+              alexanders-conditioners@bk.ru			</p>
           </div>
 
         </div>
@@ -330,21 +335,21 @@ function App() {
           </span>
           <h1>Мы всегда вам рады!</h1>
           <div class="to_phone">
-            <a href="tel:+7 831 410 06 99">
+            <a href="tel:+7 953 415 97 27">
               <img src={process.env.PUBLIC_URL + '/phone-or.svg'} alt="mail" />
-              <p>+7 000 000 00 00</p>
+              <p>+7 953 415 97 27</p>
             </a>
 					</div>
 					<div class="to_email">
-            <a href="mailto:info@vseprozrachno.ru">
+            <a href="mailto:alexanders-conditioners@bk.ru">
               <img src={process.env.PUBLIC_URL + '/mail_or.svg'} alt="phone" />
-              <p>alexander@bk.ru</p>
+              <p>alexanders-conditioners@bk.ru</p>
             </a>
 					</div>
           <div class="to_viber">
-            <a href="viber://chat?number=79200006177">
+            <a href="viber://chat?number=%2B79534159727">
               <img src={process.env.PUBLIC_URL + '/viberrr.svg'} alt="viber2"/>
-              <p>+7 000 000 00 00</p>
+              <p>+7 953 415 97 27</p>
             </a>
           </div>
         </div>

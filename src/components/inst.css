@@ -1,0 +1,129 @@
+.inst-layout {
+    max-width: 1128px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.inst-hendler {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: space-between!important;
+    align-items: center;
+    padding-bottom: 0.4rem;
+    margin: 0 0 50px 0;
+}
+
+.inst-hendler-in {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: flex-start!important;
+    align-items: center;
+}
+
+.inst-hendler-in-text {
+    
+    font-size: 20px;
+    margin-right: 0.4rem;
+}
+
+.inst-btn {
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #0095f6;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    max-width: 130px;
+    white-space: nowrap;
+    margin-right: 0px;
+    text-decoration: none;
+}
+
+.inst-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.inst-grid > :nth-child(1) {
+    background-image: url(./download0.jfif);
+}
+.inst-grid > :nth-child(2) {
+    background-image: url(./download1.jfif);
+}
+.inst-grid > :nth-child(3) {
+    background-image: url(./download2.jfif);
+}
+.inst-grid > :nth-child(4) {
+    background-image: url(./no-photo.jpg);
+}
+
+.inst-grid div {
+    height: 0;
+   padding-bottom: 100%;
+   position: relative;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inst-grid div img {
+    display: none;
+}
+
+.inst-grid div::before {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 1000px) {
+
+    .inst-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .inst-hendler-in-text {
+        font-size: 15px;
+        font-weight: bold;
+        margin-right: 0.1rem;
+    }
+
+    .inst-btn {
+        font-size: 12px;
+    }
+
+    .inst-grid > :nth-child(4) {
+        display: none;
+    }
+
+    .inst-grid > :nth-child(5) {
+        display: none;
+    }
+
+    .inst-grid > :nth-child(6) {
+        display: none;
+    }
+
+    .inst-grid > :nth-child(7) {
+        display: none;
+    }
+
+    .inst-grid > :nth-child(8) {
+        display: none;
+    }
+
+    .inst-grid > :nth-child(9) {
+        display: none;
+    }
+
+}
