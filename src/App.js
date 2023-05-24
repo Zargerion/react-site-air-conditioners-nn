@@ -142,15 +142,15 @@ function App() {
               <div class="shop-relative">
                 <div class="shop-item">
                   <p>Haier HSU-07HPL103/R3</p>
-                  <p>35 000 руб.</p>
+                  <p>25 000 руб.</p>
                 </div>
                 <div class="shop-item">
                   <p>Zanussi ZACS-09 HB/N1</p>
-                  <p>40 000 руб.</p>
+                  <p>30 000 руб.</p>
                 </div>
                 <div class="shop-item">
                   <p>Xigma XG-TX27RHA</p>
-                  <p>36 000 руб.</p>
+                  <p>26 000 руб.</p>
                 </div>
               </div>
             </div>
@@ -158,15 +158,15 @@ function App() {
               <div class="shop-relative">
                 <div class="shop-item">
                   <p>Shuft SFTHI-09HN1_22Y</p>
-                  <p>43 000 руб.</p>
+                  <p>33 000 руб.</p>
                 </div>
                 <div class="shop-item">
                   <p>Toshiba RAS-B05CKVG-EE</p>
-                  <p>65 000 руб.</p>
+                  <p>55 000 руб.</p>
                 </div>
                 <div class="shop-item">
                   <p>Royal Clima RCI-GR28HN</p>
-                  <p>53 000 руб.</p>
+                  <p>43 000 руб.</p>
                 </div>
               </div>
             </div>
