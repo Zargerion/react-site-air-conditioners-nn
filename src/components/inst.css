@@ -44,6 +44,7 @@
 
 .inst-grid {
     display: grid;
+    padding: 0 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
@@ -58,7 +59,7 @@
     background-image: url(./download2.jfif);
 }
 .inst-grid > :nth-child(4) {
-    background-image: url(./no-photo.jpg);
+    background-image: url(./download4.jpg);
 }
 
 .inst-grid div {
@@ -68,7 +69,7 @@
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   border-radius: 10px;
+   border-radius: 5px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -79,11 +80,76 @@
 .inst-grid div::before {
     content: "";
     display: block;
-    height: 100%;
+    height: 10%;
     position: absolute;
     top: 0;
     left: 0;
 }
+
+.inst-button-video-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inst-button-video-holder button {
+    margin: 0 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #0095f6;
+    color: #fff;
+    flex: 1 1 auto;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+.video-window-holder {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(55,55,55,0.8);
+    z-index: 1000;
+    overflow: auto;
+  }
+
+  .video-window {
+    background-color: rgba(255,255,255, 0.9);;
+    margin-top: 1vh;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+  }
+
+  .video-window-closer {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    line-height: 0;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .video-window-closer img {
+    margin-top: 4px;
+    cursor: pointer;
+  }
+
+  .video-window video {
+    width: 21vw;
+    border-radius: 4px;
+  }
+
 
 @media (max-width: 1000px) {
 
@@ -124,6 +190,14 @@
 
     .inst-grid > :nth-child(9) {
         display: none;
+    }
+
+    .video-window video {
+        width: 60vw;
+    }
+
+    .video-window {
+        padding: 30px;
     }
 
 }

@@ -284,6 +284,10 @@ a {
   margin-top: 0;
 }
 
+.about-holder > :nth-child(5) {
+  font-weight: bold;
+}
+
 .img-holder-about {
   display: flex;
   justify-content: center;
