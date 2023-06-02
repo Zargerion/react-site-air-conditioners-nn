@@ -994,4 +994,12 @@ p {
     margin-bottom: -40px;
   }
 
+  .rf_phone {
+    color: #fff;
+    line-height: 50px;
+    margin-right: 14px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
 }
