@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2b4628b.css",
-    "main.js": "/static/js/main.345653fe.js",
+    "main.css": "/static/css/main.db98c3ef.css",
+    "main.js": "/static/js/main.03131144.js",
     "static/js/787.9ba0244f.chunk.js": "/static/js/787.9ba0244f.chunk.js",
     "static/media/service-wp-v1.jpg": "/static/media/service-wp-v1.0ea92d18b62b22cfbfd9.jpg",
     "static/media/about-wp-v1.jpg": "/static/media/about-wp-v1.2ecbc065b95527ccc272.jpg",
     "static/media/install-wp-v1.jpg": "/static/media/install-wp-v1.9e02eade8eee0e70d7aa.jpg",
     "static/media/intro.jpg": "/static/media/intro.8886e1ffc6267f4f4637.jpg",
     "static/media/shop-wp-v2.jpg": "/static/media/shop-wp-v2.924c2d0c2b89fdaa29af.jpg",
+    "static/media/download0.jpg": "/static/media/download0.9073843a38f329076e19.jpg",
     "static/media/download1.jfif": "/static/media/download1.d5a49c5e9483dc6b1f8d.jfif",
-    "static/media/download0.jfif": "/static/media/download0.55af079d7218d8f8d173.jfif",
     "static/media/download2.jfif": "/static/media/download2.32a55c358eb4f148ca24.jfif",
     "static/media/download4.jpg": "/static/media/download4.724d8e86243b329c99e7.jpg",
     "index.html": "/index.html",
-    "main.f2b4628b.css.map": "/static/css/main.f2b4628b.css.map",
-    "main.345653fe.js.map": "/static/js/main.345653fe.js.map",
+    "main.db98c3ef.css.map": "/static/css/main.db98c3ef.css.map",
+    "main.03131144.js.map": "/static/js/main.03131144.js.map",
     "787.9ba0244f.chunk.js.map": "/static/js/787.9ba0244f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2b4628b.css",
-    "static/js/main.345653fe.js"
+    "static/css/main.db98c3ef.css",
+    "static/js/main.03131144.js"
   ]
 }
